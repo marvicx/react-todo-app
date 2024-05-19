@@ -1,0 +1,27 @@
+.card{
+    background-color: white;
+    padding: 20px;  
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgb(0, 0 , 0, 0.1);
+}
+.inputContainer{
+    display: flex;
+}
+.formInput{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+}
+.formInput:focus{
+    outline: none;
+}
+.btn_primary{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
